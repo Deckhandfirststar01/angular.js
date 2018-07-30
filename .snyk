@@ -1,0 +1,59 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - promises-aplus-tests > mocha > debug:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:hoek:20180212':
+    - grunt-contrib-compress > iltorb > node-gyp > request > hawk > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - grunt-contrib-compress > iltorb > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - grunt-contrib-compress > iltorb > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - grunt-contrib-compress > iltorb > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:lodash:20180130':
+    - dgeni > lodash:
+        patched: '2018-07-30T04:54:33.249Z'
+    - dgeni-packages > dgeni > lodash:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:mime:20170907':
+    - angular-benchpress > di > traceur-compiler > q-io > mime:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-07-30T04:54:33.249Z'
+    - angular-benchpress > browserify > glob > minimatch:
+        patched: '2018-07-30T04:54:33.249Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-07-30T04:54:33.249Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-07-30T04:54:33.249Z'
+    - promises-aplus-tests > mocha > glob > minimatch:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:ms:20170412':
+    - promises-aplus-tests > mocha > debug > ms:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2018-07-30T04:54:33.249Z'
+  'npm:uglify-js:20151024':
+    - angular-benchpress > browserify > browser-pack > umd > uglify-js:
+        patched: '2018-07-30T04:54:33.249Z'
+    - angular-benchpress > browserify > umd > uglify-js:
+        patched: '2018-07-30T04:54:33.249Z'
+    - angular-benchpress > browserify > browser-pack > umd > ruglify > uglify-js:
+        patched: '2018-07-30T04:54:33.249Z'
+    - angular-benchpress > browserify > umd > ruglify > uglify-js:
+        patched: '2018-07-30T04:54:33.249Z'
