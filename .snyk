@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -23,6 +23,38 @@ patch:
         patched: '2018-07-30T04:54:33.249Z'
     - karma > log4js > loggly > request > hawk > sntp > hoek:
         patched: '2018-07-30T04:54:33.249Z'
+    - changez-angular > changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez-angular > changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez-angular > changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez-angular > changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - changez > nunjucks > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T04:40:54.297Z'
   'npm:lodash:20180130':
     - dgeni > lodash:
         patched: '2018-07-30T04:54:33.249Z'
@@ -31,6 +63,8 @@ patch:
   'npm:mime:20170907':
     - angular-benchpress > di > traceur-compiler > q-io > mime:
         patched: '2018-07-30T04:54:33.249Z'
+    - angular-benchpress > di > traceur > q-io > mime:
+        patched: '2018-12-04T04:40:54.297Z'
   'npm:minimatch:20160620':
     - gulp > vinyl-fs > glob-stream > minimatch:
         patched: '2018-07-30T04:54:33.249Z'
