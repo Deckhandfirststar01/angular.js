@@ -22,7 +22,7 @@
     "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
-    "angular-benchpress": "0.x.x",
+    "angular-benchpress": "0.2.2",
     "benchmark": "1.x.x",
     "bootstrap": "4.0.0",
     "browserstacktunnel-wrapper": "2.0.0",
